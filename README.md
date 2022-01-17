@@ -6,37 +6,10 @@
 
 Machine learning model implementations with PyTorch
 
-## Environment Setup
-### requirements
-- Python >=3.8 and <3.10
-
-### install dependency
-```shell
-$ python3 -m venv .venv
-$ pip install -r requirements.txt -f https://download.pytorch.org/whl/cpu/torch_stable.html
-$ source ./.venv/bin/activate
-```
-
-### CUDA support
+## CUDA support
 CUDA support is work in progress.
 
-## Development
-Testing
-```shell
-$ pytest
-``` 
+## Models
 
-mypy
-```shell
-$ mypy .
-```
-
-flake8
-```
-$ flake8
-```
-
-black
-```
-$ black .
-```
+### Natutal Language Processing
+- Transformer(https://arxiv.org/abs/1706.03762) - work in progress
