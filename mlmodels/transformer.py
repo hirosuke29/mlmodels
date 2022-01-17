@@ -19,7 +19,9 @@ class ScaledDotProductAttention(nn.Module):
         self.w_v = nn.Linear(d_model, d_model, bias=False)
         self.out = nn.Linear(d_model, d_model, bias=False)
 
-    def forward(self, x: torch.Tensor, mask: Optional[torch.BoolTensor] = None) -> torch.Tensor:
+    def forward(
+        self, x: torch.Tensor, mask: Optional[torch.BoolTensor] = None
+    ) -> torch.Tensor:
         """
         Args:
             x: input tensor [batch_size, sequence_length, d_model]

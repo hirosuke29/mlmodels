@@ -3,6 +3,7 @@ from torch import nn
 
 from mlmodels import transformer
 
+
 def test_scaled_dot_product_attention_shape() -> None:
     attn: nn.Module = transformer.ScaledDotProductAttention(d_model=200)
     size: torch.Size = torch.Size((10, 100, 200))

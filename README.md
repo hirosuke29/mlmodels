@@ -18,7 +18,23 @@ $ source ./.venv/bin/activate
 ### CUDA support
 CUDA support is work in progress.
 
-## Testing
+## Development
+Testing
 ```shell
 $ pytest
 ``` 
+
+mypy
+```shell
+$ mypy .
+```
+
+flake8
+```
+$ flake8
+```
+
+black
+```
+$ black .
+```
