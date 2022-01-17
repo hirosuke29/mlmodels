@@ -1,3 +1,5 @@
+![ci](https://github.com/hirosuke29/mlmodels/actions/workflows/ci.yml/badge.svg)
+
 # MLmodels
 
 ## Overview
